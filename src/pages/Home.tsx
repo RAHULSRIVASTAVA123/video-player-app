@@ -1,7 +1,6 @@
 // import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
 // import { videos } from "../data/videos";
-// import type { Video } from "../types/video";
 // import VideoCard from "../components/VideoCard";
 // import "../styles/home.css";
 
