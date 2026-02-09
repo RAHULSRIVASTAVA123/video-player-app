@@ -1,5 +1,5 @@
 import type { Video } from "../types/video";
-import "../styles/videocard.css";
+import "../styles/videoCard.css";
 import { useState } from "react";
 
 interface Props {
