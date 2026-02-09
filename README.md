@@ -88,4 +88,8 @@ npm run dev
 http://localhost:5174
 
 
+Deployment link
+https://video-player-app-at2o.vercel.app?_vercel_share=MXbnIQyBjBSN0WgEYvTNmGFMuX6cFu6Z
+
+
 
