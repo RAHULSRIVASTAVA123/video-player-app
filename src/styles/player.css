@@ -1,0 +1,128 @@
+.player-page {
+  background: #000;
+  min-height: 100vh;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+/* Reserve space so content isn't hidden */
+.player-page.has-mini {
+  padding-bottom: 240px;
+}
+
+/* Video wrapper */
+.video-wrapper {
+  width: 100%;
+  max-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Video */
+.video-element {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+
+  image-rendering: auto;
+  filter: contrast(1.05) saturate(1.05);
+}
+
+/* Mini player */
+.video-wrapper.mini {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 320px;
+  height: 180px;
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Controls */
+.overlay-controls {
+  position: absolute;
+  bottom: -12px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.overlay-controls button {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Meta */
+.video-meta {
+  color: white;
+  margin: 16px 0;
+}
+
+/* Recommended */
+.recommended-section h3 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* Skip indicator */
+#skip-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.video-wrapper {
+  background: radial-gradient(
+    circle at center,
+    #111 0%,
+    #000 70%
+  );
+
+  /* Autoplay toggle */
+.autoplay-toggle {
+  color: white;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.autoplay-toggle input {
+  accent-color: #3ea6ff;
+}
+
+/* Countdown overlay */
+.next-countdown {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  z-index: 20;
+}
+}

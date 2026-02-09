@@ -1,0 +1,29 @@
+.skeleton-card {
+  background: #1c1c1c;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.skeleton-thumb {
+  height: 130px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #222, #333, #222);
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-text {
+  height: 14px;
+  margin-top: 10px;
+  background: #333;
+  border-radius: 4px;
+}
+
+.skeleton-text.small {
+  width: 60%;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
