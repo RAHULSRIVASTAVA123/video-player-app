@@ -129,9 +129,9 @@
 
 import { useNavigate } from "react-router-dom";
 import { videos } from "../data/videos";
-import type { Video } from "../types/video";
-// import VideoCard from "../components/VideoCard";
-import type { VideoCardProps } from "../components/VideoCard";
+// import type { Video } from "../types/video";
+import VideoCard from "../components/VideoCard";
+// import type { VideoCardProps } from "../components/VideoCard";
 import "../styles/home.css";
 import { useState, useMemo } from "react";
 
